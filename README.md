@@ -8,7 +8,9 @@ Dataset:
 The dataset consists of crime incident data with the following details:
 
 Attributes: Date, Time, Location, Modus Operandi, Premise, etc.
+
 Target Variable: Crime Category (multi-class target)
+
 The dataset is preprocessed to remove any inconsistencies and to prepare it for training machine learning models.
 
 Project Workflow:
@@ -19,21 +21,27 @@ Visualizations and statistical analysis of the data to gain insights and detect 
 Data Preprocessing:
 
 Handling missing values.
+
 Feature scaling and encoding.
+
 Splitting the data into training and testing sets.
+
 Model Training:
+
 Training various models on the processed data.
 
 Model Evaluation:
-Models are evaluated based on accuracy, precision, recall, and F1-score.
+
+Models are evaluated based on accuracy.
 
 Hyperparameter Tuning:
-Fine-tuning of model parameters using GridSearchCV/RandomizedSearchCV to improve performance.
+
+Fine-tuning of model parameters using GridSearchCV to improve performance.
 
 Prediction:
+
 Final predictions on test data using the best model.
 
-Machine Learning Models
-Various machine learning models were implemented such as Logistic Regression, Decision Trees, Support Vector Machines (SVM), K-Nearest Neighbors (KNN), Bagging (Random Forest), Boosting (AdaBoost) etc
+Machine Learning Models:
 
-Evaluation Metric - Accuracy
+Various machine learning models were implemented such as Logistic Regression, Decision Trees, Support Vector Machines (SVM), K-Nearest Neighbors (KNN), Bagging (Random Forest), Boosting (AdaBoost) etc
